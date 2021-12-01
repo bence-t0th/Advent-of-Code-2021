@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE042F862756D97F0029409B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE042F852756D97F0029409B /* DetailView.swift */; };
+		CE042F8A2756DA0C0029409B /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE042F892756DA0C0029409B /* Puzzle.swift */; };
+		CE042F8D2756DC090029409B /* PuzzleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE042F8C2756DC090029409B /* PuzzleList.swift */; };
+		CE042F8F2756DC150029409B /* PuzzleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE042F8E2756DC150029409B /* PuzzleRow.swift */; };
 		CEF5E3912756C2CA006DC3CD /* AoC_2021App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5E3902756C2CA006DC3CD /* AoC_2021App.swift */; };
 		CEF5E3932756C2CA006DC3CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5E3922756C2CA006DC3CD /* ContentView.swift */; };
 		CEF5E3952756C2CA006DC3CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF5E3942756C2CA006DC3CD /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE042F852756D97F0029409B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CE042F892756DA0C0029409B /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
+		CE042F8C2756DC090029409B /* PuzzleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleList.swift; sourceTree = "<group>"; };
+		CE042F8E2756DC150029409B /* PuzzleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleRow.swift; sourceTree = "<group>"; };
 		CEF5E38D2756C2CA006DC3CD /* AoC 2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AoC 2021.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF5E3902756C2CA006DC3CD /* AoC_2021App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoC_2021App.swift; sourceTree = "<group>"; };
 		CEF5E3922756C2CA006DC3CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +79,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE042F872756D9EE0029409B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE042F892756DA0C0029409B /* Puzzle.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE042F882756D9FA0029409B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEF5E3922756C2CA006DC3CD /* ContentView.swift */,
+				CE042F852756D97F0029409B /* DetailView.swift */,
+				CE042F8C2756DC090029409B /* PuzzleList.swift */,
+				CE042F8E2756DC150029409B /* PuzzleRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE042F8B2756DAF70029409B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		CEF5E3842756C2CA006DC3CD = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +128,10 @@
 		CEF5E38F2756C2CA006DC3CD /* AoC 2021 */ = {
 			isa = PBXGroup;
 			children = (
+				CE042F872756D9EE0029409B /* Model */,
+				CE042F882756D9FA0029409B /* Views */,
+				CE042F8B2756DAF70029409B /* Resources */,
 				CEF5E3902756C2CA006DC3CD /* AoC_2021App.swift */,
-				CEF5E3922756C2CA006DC3CD /* ContentView.swift */,
 				CEF5E3942756C2CA006DC3CD /* Assets.xcassets */,
 				CEF5E3962756C2CA006DC3CD /* Preview Content */,
 			);
@@ -257,7 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE042F8F2756DC150029409B /* PuzzleRow.swift in Sources */,
 				CEF5E3932756C2CA006DC3CD /* ContentView.swift in Sources */,
+				CE042F862756D97F0029409B /* DetailView.swift in Sources */,
+				CE042F8A2756DA0C0029409B /* Puzzle.swift in Sources */,
+				CE042F8D2756DC090029409B /* PuzzleList.swift in Sources */,
 				CEF5E3912756C2CA006DC3CD /* AoC_2021App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

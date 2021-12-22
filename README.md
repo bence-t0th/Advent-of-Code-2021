@@ -9,3 +9,4 @@
 | Day | Stars |
 | ------ | ------ |
 | [Day 1: Sonar Sweep](https://adventofcode.com/2021/day/1) | :star: :star: |
+| [Day 2: Dive!](https://adventofcode.com/2021/day/2) | :star: :star: |
